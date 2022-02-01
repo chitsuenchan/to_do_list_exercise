@@ -1,0 +1,20 @@
+
+
+
+body {
+    background-color: gray;
+}
+
+/* input[type="text"] {
+    background-color : gray; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    /* color: lightgray;
+    opacity: 1; /* Firefox */
+/* }
+
+h1 {
+    color: lightgray;
+} */
+
