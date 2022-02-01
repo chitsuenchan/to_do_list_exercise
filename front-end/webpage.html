@@ -4,14 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="webpage.css">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        .winner {
+            color:green
+        }
+        .loser {
+            color:red
+        }
+    </style>
 </head>
 <body>
-    <h1>To-Do List</h1>
-    <div>
-        <input type="text" name="taskInput" id="taskInput", placeholder="Your Task Here">
-        <input type="button" value="+">
-    </div>
+    <section class="section">
+        <div class="container">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class='image is-2by1'>
+                            <img src="https://www.workflowmax.com/hubfs/6-things-to-do-list.png" alt="">
+                        </figure>
+                    </div>
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            To-Do List
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="field is-grouped">
+                            <p class="control is-expanded">
+                              <input class="input" type="text" placeholder="Enter in Task">
+                            </p>
+                            <p class="control">
+                              <a class="button is-primary">
+                                Add
+                              </a>
+                            </p>
+                            <p class="control">
+                                <a class="button is-light">
+                                  Delete
+                                </a>
+                              </p>
+                          </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+
+
 </body>
 </html>
+
+
